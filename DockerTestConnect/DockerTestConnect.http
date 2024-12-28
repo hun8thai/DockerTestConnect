@@ -1,0 +1,6 @@
+@DockerTestConnect_HostAddress = http://localhost:8081
+
+GET {{DockerTestConnect_HostAddress}}/testconnection/
+Accept: application/json
+
+###
